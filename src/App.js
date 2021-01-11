@@ -100,12 +100,12 @@ function App() {
 							);
 						}): <p>Use the search button to find movies</p>}
 						{loading && <img src={Spinner} alt="spinner"/>}
-					{!nominations.length && (
+					{/* {!nominations.length && (
 						<p>
 							You currently, have'nt made a nomination, search your favourite movies,
 							to start adding nominations
 						</p>
-					)}
+					)} */}
 				</div>
 				<div className='nominations'>
 					<p>
