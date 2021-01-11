@@ -13,7 +13,7 @@ function App() {
 	const [movies, setMovies] = useState([]);
 	const [nominations, setNomination] = useState([]);
 	const [loading, setLoading] = useState(false);
-	const baseUrl = `http://www.omdbapi.com/?s=${searchQuery}&apikey=6ccf3a20`;
+	const baseUrl = `https://www.omdbapi.com/?s=${searchQuery}&apikey=6ccf3a20`;
 
 	const notify = () => toast.info("Nomination Completed");
 	useEffect(() => {
