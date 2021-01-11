@@ -1,7 +1,6 @@
 {
   "name": "shopify-internship",
   "version": "0.1.0",
-  "homepage": "http://stepheng323.github.io/shoppies",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.2",
